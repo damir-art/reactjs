@@ -41,3 +41,29 @@
     </script>
 
 ## Добавляем много товаров
+В метод .render() можно занести лишь один элемент, чтобы добавить несколько, их нужно обернуть в один элемент:
+
+    <script type="text/babel">
+        function Car(props) {
+            return (
+                <div className="car">
+                    <h3 className="car__name">{props.name}</h3>
+                    <p className="car__year">Year: <strong>{props.year}</strong></p>
+                </div>
+            )
+        }
+
+        const App = (
+            <div>
+                <Car name="Ford Focus" year="2015" />
+                <Car name="Ford Mondeo" year="2016" />
+                <Car name="Opel Astra" year="2017" />
+                <Car name="Mazda 3" year="2017" />
+            </div>
+        )
+
+        ReactDOM.render(
+            App,
+            document.querySelector('#root')
+        );
+    </script>
