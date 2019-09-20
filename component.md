@@ -21,3 +21,23 @@
             document.querySelector('#root')
         );
     </script>
+
+## Добавляем свойства (props)
+
+    <script type="text/babel">
+        function Car(props) {
+            return (
+                <div className="car">
+                    <h3 className="car__name">{props.name}</h3>
+                    <p className="car__year">Year: <strong>{props.year}</strong></p>
+                </div>
+            )
+        }
+
+        ReactDOM.render(
+            <Car name="Ford Focus" year="2015" />,
+            document.querySelector('#root')
+        );
+    </script>
+
+## Добавляем много товаров
