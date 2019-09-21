@@ -22,3 +22,12 @@ https://github.com/facebook/create-react-app
 **ВНИМАНИЕ** чтобы работать с проектом, в терминале `react-app` должен быть всегда запущен.
 
 При установке проектов, их *можно* создавать и запускать через `yarn` (технологию фейсбук), для этого её нужно установить `npm install -g yarn`.
+
+## Команды проекта
+    npm start     # старт проекта, сервера зразработки
+    npm run build # собирает проект для продакшена (хостинга)
+    npm test      # запускает скрипт для теста проекта
+    npm run eject # Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
+    
+    cd react-theory # переходим в папку проекта
+    npm start       # стартуем проект
