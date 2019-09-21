@@ -35,3 +35,12 @@
 Воторой вариант:
 
     const Car = () => <h2>This is Car component 3</h2>
+
+Третий вариант, со множеством элементов:
+
+    const Car = () => (
+        <div>
+            <h2>This is Car component 4</h2>
+            <p>Description</p>
+        </div>
+    )
