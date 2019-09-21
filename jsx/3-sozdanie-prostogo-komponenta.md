@@ -5,11 +5,10 @@
 * В папке `src` создаём папку с именем компонента, например `Car`
 * В папке `Car` создаём файл с именем `Car.js`
 * В файле `Car.js` размещаем следующий код:
-
-
-
+<pre>
     function Car() {
         return (
             <div>This is Car component</div>
         )
     }
+</pre>
