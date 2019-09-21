@@ -11,5 +11,3 @@
             <div>This is Car component</div>
         )
     }
-
-* Мы создали самый простой компонент
