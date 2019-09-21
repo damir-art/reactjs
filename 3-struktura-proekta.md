@@ -25,7 +25,13 @@
 
 ## Работаем с проектом по-умолчанию
 * Редактируем файл src/App.js (всё работает)
-* В файле src/App.js (всё работает)
+* В файле src/App.js удаляем всё внутри `className="App"`
+* В файле src/App.js внутри `className="App"` пишем `<h1>Hello World!</h1>`
+* В файле src/App.css всё удаляем
+* Удаляем файл src/App.test.js
+* Удаляем файл src/logo.svg
+
+---
 * В папке src удаляем всё кроме файла index.js
 * В папке public удаляем всё кроме файла index.html
 * Полностью очищаем файл index.js
