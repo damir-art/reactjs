@@ -6,6 +6,8 @@
 * В папке `Car` создаём файл с именем `Car.js`
 * В файле `Car.js` размещаем следующий код:
 
+
+
     function Car() {
         return (
             <div>This is Car component</div>
