@@ -44,3 +44,12 @@
             <p>Description</p>
         </div>
     )
+
+Четвертый вариант, сразу экспорт:
+
+    export default () => (
+        <div>
+            <h2>This is Car component 5</h2>
+            <p>Description</p>
+        </div>
+    )
