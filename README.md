@@ -30,7 +30,7 @@ ReactDOM - библиотека отвечающая за то, чтобы вн�
 ## Интересные ссылки
 https://ru.reactjs.org/ - официальный сайт<br />
 https://ru.reactjs.org/docs/getting-started.html - начало работы<br />
-https://codesandbox.io/ - песочница<br /><br />
+https://codesandbox.io/ - песочница
 
 https://github.com/Juriy/pro-react-redux - код из курса "Юрий Бура"<br />
 https://www.bootstrapcdn.com/<br />
