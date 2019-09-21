@@ -8,10 +8,15 @@
 
 В итоге, мы создали самый простой компонент:
 
+    import React from 'react';
+
     function Car() {
         return (
-            <div>This is Car component</div>
+            <h2>This is Car component</h2>
         )
     }
 
-* В файле App.js записываем `import Car from './Car/Car';`
+    export default Car;
+
+* В файле `App.js` записываем `import Car from './Car/Car';`
+* В файле App.js внутри `return` записываем `<Car />`
