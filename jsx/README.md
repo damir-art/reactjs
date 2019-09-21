@@ -36,3 +36,25 @@ JSX - специальный синтаксис языка React.
             null   // оциии тега
         )
     }
+
+Код с текстом, элементами-потомками и свойствами:
+
+    function App() {
+        // return (
+        //   <div className="App">
+        //     <h1>Hello World!</h1>
+        //   </div>
+        // );
+
+        return React.createElement(
+            'div', // тег
+            {      // оциии тега
+                className: 'App'
+            }, 
+            React.createElement(
+                'h1',          // тег потомок
+                null,          // оциии тега потомка
+                'Hello World!' // текст тега потомка
+            )
+        )
+    }
