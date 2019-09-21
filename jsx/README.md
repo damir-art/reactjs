@@ -1,6 +1,6 @@
 # Основы JSX
 
-JSX - специальный синтаксис языка React.
+JSX - специальный синтаксис языка React. Синтаксис JSX похож на HTML.
 
 ## index.js
     ReactDOM.render(
