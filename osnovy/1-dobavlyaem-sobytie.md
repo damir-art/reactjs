@@ -1,4 +1,6 @@
 # Добавляем событие
+https://ru.reactjs.org/docs/handling-events.html<br />
+https://ru.reactjs.org/docs/events.html
 
 * Создадим кнопку, при клике на которой, будет изменяться текст заголовка.
 * Имена событий записываются в camel case.
