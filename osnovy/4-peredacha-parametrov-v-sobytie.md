@@ -11,6 +11,10 @@ Car.js (обработчик события)
     }
 
 Car.js (компонент)
+    
+    <button 
+        onClick={this.HandlerTitleChange.bind(this, 'Hello')}
+    >Изменяем заголовок</button>
 
     <Car
         name={cars[0].name}
