@@ -40,7 +40,32 @@
     }
 
 ### Второй способ
+* Создаем переменную и условие if внутри `render()` над `return()`
+* В `return()` вместо тернарного оператора засовываем `cars`
+
 Показать список авто с условием, if:
+
+    let cars = null
+
+    if (this.state.showCars) {
+        cars = this.state.cars.map((car, index) => {
+            return (
+                <Car
+                    key = {index}
+                    name = {car.name}
+                    year = {car.year}
+                    // onChangeTitle = {this.HandlerTitleChange.bind(this, car.name)}
+                    onChangeTitle={() => this.HandlerTitleChange(car.name)}
+                />
+            )
+        })
+    }
+    
+    return (
+        ...
+        { cars }
+        ...
+    )
 
 Фигурные скобки внутри React, указывают на то, что мы пишем на JavaScript.
 Обычные скобки внутри React, после return указывают на то, что мы пишем на JSX.
