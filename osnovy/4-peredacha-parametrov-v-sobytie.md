@@ -19,7 +19,7 @@ Car.js (компонент)
     <Car
         name={cars[0].name}
         year={cars[0].year}
-        onChangeTitle={this.HandlerTitleChange.bind(this, 'Hello')}
+        onChangeTitle={this.HandlerTitleChange.bind(this, cars[0].name)}
     />
 
 App.js (простой компонент)
