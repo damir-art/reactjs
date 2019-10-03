@@ -35,3 +35,14 @@ JavaScript (без `type="text/babel"`):
             document.getElementById('root')
         );
     </script>
+
+Внутри React можно использовать как JSX так и JavaScript:
+
+    <script type="text/babel">
+        const destination = document.getElementById('root')
+
+        ReactDOM.render(
+            <h1>Это React</h1>,
+            destination
+        );
+    </script>
