@@ -8,3 +8,14 @@
 
 ## Функции вызывают друг друга
 Функции позволяют разумно структурировать код приложения, вызывая друг друга.
+
+    function formatDistance(distance) {
+        return distance + ' км'
+    }
+    
+    function getDistance(speed, time) {
+        const distance = speed * time
+        return formatDistance(distance)
+    }
+    
+    console.log(getDistance(50, 0.5))
