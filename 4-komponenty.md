@@ -23,6 +23,23 @@
     console.log(getDistance(50, 0.5))
 
 ## Создаём простой компонент
-Создадем обычный компонент через `class`
+Создадем обычный компонент через `class`:
+
+    <!-- React-приложение -->
+    <script type="text/babel">
+        // Создаем компонент Hello, через class
+        class Hello extends React.Component {
+            render () {
+                // Текст нужно обренуть тегами или кавычками, иначе появится ошибка
+                return <p>Hello</p>
+            }
+        }
+
+        ReactDOM.render(
+            // Используем компонент Hello
+            <Hello />,
+            document.getElementById('root')
+        );
+    </script>
 
 * `render()` &ndash; метод класса `React.Component`
