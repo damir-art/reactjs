@@ -43,3 +43,16 @@
     </script>
 
 * `render()` &ndash; метод класса `React.Component`
+
+## Работаем с компонентом
+Используем (вызываем) компонент Hello, несколько раз подряд. Оберните их тегом.
+
+    ReactDOM.render(
+        // Используем (вызываем) компонент Hello, несколько раз подряд
+        <div>
+            <Hello />
+            <Hello />
+            <Hello />
+        </div>,
+        document.getElementById('root')
+    );
