@@ -36,7 +36,7 @@
         }
 
         ReactDOM.render(
-            // Используем компонент Hello
+            // Используем (вызываем) компонент Hello
             <Hello />,
             document.getElementById('root')
         );
