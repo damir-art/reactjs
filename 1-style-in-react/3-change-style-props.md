@@ -15,11 +15,11 @@
                     color: '#333',
                     backgroundColor: this.props.bgcolor,
                     fontSize: 36,
-                    fontWeight: 'bold'
+                    fontWeight: 'bold',
                     fontFamily: 'Courier New, Courier, monospace',
                     display: 'inline-block',
                     padding: 10,
-                    margin: 10,
+                    margin: 10
                 }
 
                 return (
