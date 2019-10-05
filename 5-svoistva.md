@@ -35,3 +35,12 @@
         // Свойство компонента, принимает параметры
         return <li>{this.props.country}: {this.props.capital}, {this.props.children}</li>
     }
+    
+    <ul>
+        <Countries country='Англия' capital='Лондон'>
+            <b>.UK</b>
+        </Countries>
+    </ul>
+
+* <Countries /> &ndash; компонент
+* <b> &ndash; дочерний элемент компонента
