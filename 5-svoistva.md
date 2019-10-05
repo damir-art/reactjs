@@ -42,5 +42,5 @@
         </Countries>
     </ul>
 
-* Countries &ndash; компонент
-* b &ndash; дочерний элемент компонента
+* `Countries` &ndash; компонент
+* `b` &ndash; дочерний элемент компонента
