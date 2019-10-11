@@ -20,3 +20,22 @@
     }
 
     console.log(carsName(...cars))
+
+## Оператор расширения в React
+
+    class Auto extends React.Component {
+        render () {
+            return (
+                <div>
+                    <AutoName {...this.props} />
+                    <ul>
+                        <li>{this.props.brand}</li>
+                        <li>{this.props.model}</li>
+                        <li>{this.props.color}</li>
+                    </ul>
+                    <AutoColor {...this.props} />
+                    <hr />
+                </div>
+            )
+        }
+    }
